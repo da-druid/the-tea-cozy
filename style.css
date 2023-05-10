@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    color: seashell;
+    font-family: Helvetica; 
+}
+
+html {
+    font-size: 22px;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#logo {
+    position: relative;
+    max-height: 50px;
+    padding-left: 10px;
+}
+
+#logo img {
+    height:50px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: underline;
+}
+
+#mission {
+    position: relative;
+    top: 69px;
+    height: 700px;
+    max-width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+}
+
+#statement {
+    background-color: black;
+    min-height: 100px;
+    width: 100%
+}
+
+#statement h2, h4 {
+    margin-top: 10px;
+}
+
+#featured-tea {
+    margin-top: 150px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.featured img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.featured h4{
+    margin-bottom: 30px;
+}
+
+#locations {
+    margin: 50px auto 0 auto;
+    min-height: 500px;
+    max-width: 1200px;
+    padding-top: 80px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+
+.location {
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    margin:20px 20px;
+    opacity: 1;
+}
+
+.location h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.location h4 {
+    margin-bottom: 30px;
+}
+
+#contact {
+    max-height: 200px;
+}
+
+#contact h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#contact h5 {
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+    #locations {
+        background-position: center;
+    }
+}
